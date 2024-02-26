@@ -4,15 +4,15 @@ for users of the shapiq package."""
 from typing import Callable, Optional, Union
 
 import numpy as np
-from approximator import (
+from ..approximator import (
     PermutationSamplingSII,
     PermutationSamplingSTI,
     RegressionFSI,
     RegressionSII,
     ShapIQ,
 )
-from approximator._base import Approximator
-from approximator._interaction_values import InteractionValues
+from ..approximator._base import Approximator
+from ..approximator._interaction_values import InteractionValues
 
 from ._base import Explainer
 

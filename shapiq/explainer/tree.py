@@ -2,8 +2,8 @@
 for trees and tree ensembles."""
 
 import numpy as np
-from approximator._interaction_values import InteractionValues
-from explainer._base import Explainer
+from ..approximator._interaction_values import InteractionValues
+from ..explainer._base import Explainer
 
 __all__ = ["TreeExplainer"]
 

@@ -3,7 +3,7 @@
 from typing import Callable, Optional
 
 import numpy as np
-from explainer.imputer._base import Imputer
+from ...explainer.imputer._base import Imputer
 
 
 class MarginalImputer(Imputer):

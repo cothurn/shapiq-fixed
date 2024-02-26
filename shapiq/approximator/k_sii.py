@@ -3,12 +3,12 @@
 from typing import Optional, Union
 
 import numpy as np
-from approximator._base import Approximator
-from approximator._interaction_values import InteractionValues
-from approximator._utils import _generate_interaction_lookup
+from ..approximator._base import Approximator
+from ..approximator._interaction_values import InteractionValues
+from ..approximator._utils import _generate_interaction_lookup
 from scipy.special import bernoulli
 
-from shapiq.utils import powerset
+from ..utils import powerset
 
 
 class KShapleyMixin:

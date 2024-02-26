@@ -3,11 +3,11 @@
 from typing import Callable, Optional
 
 import numpy as np
-from approximator._base import Approximator
-from approximator._interaction_values import InteractionValues
-from approximator.sampling import ShapleySamplingMixin
+from ...approximator._base import Approximator
+from ...approximator._interaction_values import InteractionValues
+from ...approximator.sampling import ShapleySamplingMixin
 from scipy.special import bernoulli, binom
-from utils import powerset
+from ...utils import powerset
 
 AVAILABLE_INDICES_REGRESSION = ["FSI", "SII", "SV"]
 

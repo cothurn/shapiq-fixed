@@ -3,7 +3,7 @@ from abc import ABC
 from typing import Union
 
 import numpy as np
-from approximator._base import Approximator
+from ..approximator._base import Approximator
 from scipy.special import binom
 
 from shapiq.utils import get_explicit_subsets, split_subsets_budget

@@ -3,10 +3,10 @@
 from typing import Callable, Optional
 
 import numpy as np
-from approximator._base import Approximator
-from approximator._interaction_values import InteractionValues
-from approximator.k_sii import KShapleyMixin
-from utils import powerset
+from ...approximator._base import Approximator
+from ...approximator._interaction_values import InteractionValues
+from ...approximator.k_sii import KShapleyMixin
+from ...utils import powerset
 
 
 class PermutationSamplingSII(Approximator, KShapleyMixin):

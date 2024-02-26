@@ -3,8 +3,8 @@ from dataclasses import dataclass
 from typing import Optional
 
 import numpy as np
-from approximator._config import AVAILABLE_INDICES
-from approximator._utils import _generate_interaction_lookup
+from ..approximator._config import AVAILABLE_INDICES
+from ..approximator._utils import _generate_interaction_lookup
 
 from shapiq.utils import powerset
 
